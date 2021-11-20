@@ -6,22 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <table class="table">
-        <tr>
-            <td colspan=3>My Profile</td>
-          </tr>
-        <tr>
-            <td>Nama</td> <td>Adinda Putri Amalia</td> <td rowspan="4"><img src="adinda.jpg" style="height:200px;width:200px;"></td>
-        </tr>
-        <tr>
-            <td>Kelas</td> <td>1.1D</td>
-        </tr>
-        <tr>
-            <td>Jurusan</td> <td>Teknik Informatika</td>
-        </tr>
-        <tr>
-            <td>Hobby</td> <td>Editing</td>
-        </tr>
-    </table>
+    <form>
+        <label for="fname">Nama Kampus</label>
+        <input type="text" id="fname" name="fname" value="STMIK Antar Bangsa"><br>
+        <select name="prodi">
+            <option value="Sistem Informasi">Teknik Informatika</option>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+        </select>
+    </form>
 </body>
 </html>
